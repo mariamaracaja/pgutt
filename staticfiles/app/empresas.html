@@ -1,0 +1,360 @@
+{% extends 'app/layout.html' %}
+{% load static %}
+
+{% block main %}
+    <section>
+        <div class="empresas-text-container">
+            <h1>Empresas Representadas pela P. Gutt</h1>
+
+        </div>
+        <div class="company-containers">
+            <div class="company-wrapper">
+                             <a href="{% url  'ballestra' %}">
+                    <div class="company">
+                        <div class="company-logo">
+                            <h1>BALLESTRA</h1>
+                            <img src="{% static 'app/LOGOs_200px_BALLESTRA.jpg' %}" alt="">
+                        </div>
+                        <p>O Grupo BALLESTRA é líder global no desenvolvimento, engenharia e fornecimento de tecnologias avançadas, fábricas de processamento e 
+                            equipamentos patenteados para diversos setores, incluindo produtos químicos para a vida, detergentes, surfactantes, sabões, produtos químicos 
+                            e fertilizantes.
+                        </p>
+                        <a href="https://www.ballestra.com/" target="_blank" class="company-p-link">ballestra.com ></a>
+                    </div>
+                </a>
+                <a href="{% url 'bft' %}">
+                    <div class="company">
+                        <div class="company-logo">
+                            <h1>BFT</h1>
+                            <img src="{% static 'app/LOGOs_200px_BFT.jpg' %}" alt="">
+                        </div>
+                        <p>BFT é o único fornecedor global independente do setor. Como empresa líder na área de bombas de alta pressão para corte por jato de água, a BFT é 
+                            o seu contato para soluções inovadoras e prontas para uso. Desde 1979, a BFT GmbH é fornecedora e fabricante tecnologicamente qualificada de 
+                            sistemas de alta pressão e componentes de alta pressão para corte por jato de água, indústrias química e petroquímica, bem como bombas para 
+                            geração de pressões (até 12.000 bar) para meios líquidos. As bombas dosadoras de peróxido são projetadas especificamente para a injeção em 
+                            polietilenos de baixa densidade (LDPE). Com base em mais de 40 anos de experiência, nossos produtos são fabricados de acordo com os mais altos 
+                            padrões tecnológicos
+                        </p>
+                        <a href="https://www.bft-pumps.com/en/" target="_blank" class="company-p-link">bft-pumps.com ></a>
+                </div>
+                </a>
+                <a href="{% url 'bhdt' %}">
+                    <div class="company">
+                        <div class="company-logo">
+                            <h1>BHDT</h1>
+                            <img src="{% static 'app/LOGOs_200px_BHDT.jpg' %}" alt="">
+                        </div>
+                        <p>BHDT é uma empresa austríaca especializada em engenharia interna, fabricação de equipamentos de alta pressão em cooperação com 
+                            licenciadores bem conhecidos de processos químicos no setor de LDPE/EVA/EAA, bem como no setor de ureia/amônia/melanina, utilizando 
+                            tecnologias de vanguarda, ferramentas de engenharia de última geração, máquinas de processamento controladas por computadores de alta precisão 
+                            e levando em consideração as demandas dos clientes no mais alto nível de padrões tecnológicos. Sua linha de produção contém todos os produtos 
+                            de alta pressão necessários em uma planta de alta pressão, como reatores, resfriadores, válvulas de alta pressão, conexões e isométricos com 
+                            acessórios. Graças a décadas de experiência e à qualidade dos seus produtos, alcançaram uma posição de líder de mercado.
+                        </p>
+                        <a href="https://www.bhdt.at" target="_blank" class="company-p-link">bhdt.at ></a>
+                    </div>
+                </a>
+                <a href="{% url 'bowerjones' %}">
+                    <div class="company">
+                        <div class="company-logo">
+                            <h1>BOWERS & JONES</h1>
+                            <img src="{% static 'app/LOGOs_200px_BOWERJONES.jpg' %}" alt="">
+                    </div>
+                        <p>Fundada em 1954, a jornada da Bowers & Jones começou com uma visão simples, porém ambiciosa: redefinir os padrões de laminação de metais de precisão e estabelecer novos padrões de excelência no setor.
+
+                            Hoje, essa visão permanece no centro de tudo o que produz. Desde o design de rolos de alta precisão até o fornecimento de serviços abrangentes de reforma de moinhos. <br>Compromisso de “manter os moinhos funcionando” é mais do que apenas um lema — é uma promessa que se cumpre com cada produto entregue.
+                        </p>
+                        <a href="https://bowersjones.com/" target="_blank" class="company-p-link">bowersjones.com ></a>
+                    </div>
+                </a>
+                <a href="{% url 'breitenfeldsteel' %}">
+                    <div class="company">
+                        <div class="company-logo">
+                            <h1>BREITENFELD STEEL</h1>
+                            <img src="{% static 'app/LOGOs_200px_BREITENFELDSTEEL.jpg' %}" alt="">
+                    </div>
+                        <p>Breitenfeld Steel é um produtor austríaco de aço inoxidável estabelecido, fundado em 1942, com cerca de 320 funcionários. A Breitenfeld Steel 
+                            opera uma siderúrgica elétrica, uma usina de aço especial e uma forjaria em sua fábrica em St. Barbara im Mürztal (Áustria). A linha de produtos 
+                            inclui todos os tipos de aços inoxidáveis especiais convencionais, qualidades refundidas ESR e VAR e barras de aço forjadas planas e redondas.
+                        </p>
+                        <a href="https://breitenfeld.at" target="_blank" class="company-p-link">breitenfeld.at ></a>
+                    </div>
+                </a>
+                <a href="{% url 'christofgroup' %}">
+                    <div class="company">
+                        <div class="company-logo">
+                            <h1>CHRISTOF GROUP SBN</h1>
+                            <img src="{% static 'app/LOGOs_200px_CHRISTOF.jpg' %}" alt="">
+                        </div>
+                        <p>O Grupo Christof SBN é especialista na fabricação de equipamentos de alta pressão para a indústria de fertilizantes e especialmente para plantas 
+                            de amônia e uréia. Conhecimento abrangente de materiais e décadas de know-how no projeto e produção de vasos de pressão sofisticados, em 
+                            construção monoparede ou multicamada, resultam na implementação ideal das necessidades dos clientes, ao mesmo tempo em que se concentra na mais 
+                            alta qualidade possível em design e acabamento, bem como na entrega dentro do prazo . O departamento de serviço, inspeção e pós-venda (SIAS) do 
+                            Grupo Christof SBN pode oferecer aos seus clientes serviços especiais no local, tais como: peças sobressalentes, incluindo divisores de 
+                            líquidos, modificação no local, reparo de reatores de ureia e trocadores de calor de alta pressão, recolocação, instalação em campo, inspeção,
+                            manutenção e reusinagem de superfícies de vedação.                        
+                        </p>
+                        <a href="https://www.christof-group.com/" target="_blank" class="company-p-link">christof-group.com ></a>
+                    </div>
+                </a>
+                <a href="{% url 'conthermo' %}">
+                    <div class="company">
+                        <div class="company-logo">
+                            <h1>CONTHERMO</h1>
+                            <img src="{% static 'app/LOGOs_200px_CONTHERMO.jpg' %}" alt="">
+                        </div>
+                        <p>Armários de aquecimento e fornos tipo túnel utilizados para aquecimento, secagem, têmpera/envelhecimento, bem como liquefação de tambores e 
+                            conteúdo do recipiente, etc.
+                        </p>
+                        <a href="https://www.conthermo.de" target="_blank" class="company-p-link"> conthermo.de ></a>
+                    </div>
+                </a>
+                <a href="{% url 'dekompte' %}">
+                    <div class="company">
+                        <div class="company-logo">
+                            <h1>DEKOMTE</h1>
+                            <img src="{% static 'app/Dekompte.jpg' %}" alt="">
+                        </div>
+                        <p>Com uma reputação mundial de excelência, a DEKOMTE é especializada na fabricação de juntas de expansão de tecido e aço inoxidável para usinas termelétricas.
+
+                            Além de fornecer produtos de alta qualidade adaptados para atender a vários padrões técnicos, ciclos de manutenção e orçamentos, a DEKOMTE oferece inspeção e pesquisas técnicas para auxiliar na definição de estratégias de manutenção e confiabilidade.
+                            
+                            Além do setor de geração de energia, as juntas de expansão DEKOMTE são essenciais para indústrias como petróleo e gás, refinarias, plantas químicas, siderúrgicas, usinas solares térmicas, instalações nucleares e muito mais.
+                            
+                            Embora algumas soluções sejam padrão para geração de energia, muitas são exclusivamente criadas pela equipe técnica altamente treinada da DEKOMTE para atender a requisitos técnicos complexos.
+                            
+                            A experiência técnica da DEKOMTE garante a entrega de soluções ideais para todos os desafios de juntas de expansão.                        
+                        </p>
+                        <a href="https://www.dekomte.com/en_gb/" target="_blank" class="company-p-link">dekomte.com ></a>
+                    </div>
+                </a>
+                <a href="{% url 'fundicaomorandini' %}">
+                    <div class="company">
+                        <div class="company-logo">
+                            <h1>FUNDIÇÃO MORANDINI</h1>
+                            <img src="{% static 'app/LOGOs_200px_FUNDIcaoMORANDINI.jpg' %}" alt="">
+                        </div>
+                        <p> Empresa italiana dedicada à fabricação de peças forjadas de grande porte de até 200 toneladas e 8 metros de diâmetro em aço carbono, aços 
+                            inoxidáveis e ligas especiais de níquel.
+                        </p>
+                        <a href="http://www.morandini.it" target="_blank" class="company-p-link">morandini.it ></a>
+                    </div>
+                </a>
+                <a href="{% url 'gkt' %}">
+                    <div class="company">
+                        <div class="company-logo">
+                            <h1>GKT</h1>
+                            <img src="{% static 'app/LOGOs_200px_GIG.jpg' %}" alt="">
+                        </div>
+                        <p>GKT é um fornecedor austríaco de atuação global de plantas industriais de alta qualidade para separação térmica e tecnologias ambientais. 
+                            Nós nos concentramos no projeto e fabricação de tecnologia de película descendente, película fina, caminho curto, destilação e secagem, bem como 
+                            em sistemas para valorização de CO2 e utilização de calor residual. Nossas máquinas e plantas são aplicadas principalmente nos processos de 
+                            produção das indústrias de celulose (kraft, sulfito, solúvel), (bio)refinaria, fibra, combustíveis alternativos, química, (bio)plástico, 
+                            alimentos e rações, bem como no processamento industrial de águas residuais. A GKT, parte do Grupo Dr. Aichhorn, administra seu próprio 
+                            centro técnico para testes e P&D e já concluiu vários projetos em todo o mundo, desde plantas piloto e unidades de skid até plantas prontas para 
+                            uso em regime de EPC.
+                        </p>
+                        <a href="https://www.GKT-SOLUTIONS.COM/" target="_blank" class="company-p-link">GKT-SOLUTIONS.COM ></a>
+                    </div>
+                </a>
+                <a href="{% url 'gmp' %}">
+                    <div class="company">
+                        <div class="company-logo">
+                            <h1>GMP</h1>
+                            <img src="{% static 'app/LOGOs_200px_GMP.jpg' %}" alt="">
+                        </div>
+                        <p>GMP Technical Solutions Unip. Ltd.-Índia é um dos principais fabricantes de divisórias para salas limpas, equipamentos, portas industriais, 
+                            portas metálicas resistentes ao fogo e não corta-fogo na Índia. Para garantir que os nossos produtos cumprem os mais elevados padrões e 
+                            qualidade, os nossos painéis são testados e certificados quanto à resistência ao fogo pela CE (Europa), UL (EUA), GOST (Rússia). As portas 
+                            corta-fogo também são certificadas por UL (EUA), Warrington Fire (Reino Unido), CE (Europa), GOST (Rússia) e CBRI-Índia. Também entregamos 
+                            projetos chave na mão que incluem: HVAC, elétrica, tubulações de utilidades (água, vapor e ar comprimido), equipamentos de utilidades (caldeira,
+                            compressor de ar etc.), BMS (sistema de gerenciamento predial), sistemas de alarme de incêndio, pisos e validação etc. Soluções Técnicas GMP 
+                            Unip. foi fundada no ano de 2005 com sua primeira fábrica em Baddi, HP, perto de (Nova Delhi) na Índia. Atualmente a empresa se expandiu para 3 
+                            unidades fabris com uma área de infraestrutura total de 41.806 m2 e força de trabalho de mais de 1.200 funcionários. Nossa capacidade anual de 
+                            fabricação de painéis para salas limpas é de mais de 7.989.000 m2, 72.000 portas e 2.200 equipamentos para salas limpas.                        
+                        </p>
+                        <a href="http://www.gmptech.net" target="_blank" class="company-p-link">gmptech.net ></a>
+                    </div>
+                </a>
+                <a href="{% url 'ketjurauma' %}">
+                    <div class="company">
+                        <div class="company-logo">
+                            <h1>KETJURAUMA OY</h1>
+                            <img src="{% static 'app/Ketjurauma.jpg' %}" alt="">
+                        </div>
+                        <p>A Ketjurauma Oy fabrica correntes transportadoras soldadas e rebitadas de alta qualidade para aplicações industriais exigentes. A alta qualidade de nossos produtos é baseada em nossa vasta experiência e desenvolvimento contínuo de produtos. As correntes feitas pela Ketjurauma suportarão grande esforço mecânico e desgaste. Os pinos e buchas da corrente são fixados em placas laterais usando soldagem “V-braze”. A junta é reforçada ainda mais pela usinagem de um ressalto em pinos e buchas, o que garante a precisão dimensional e o movimento lateral da corrente. O espaço entre o pino e a bucha foi otimizado como resultado de nossa vasta experiência, e também melhorará a resistência ao desgaste, especialmente em condições adversas.                      
+                        </p>
+                        <a href="https://www.ketjurauma.fi/" target="_blank" class="company-p-link">ketjurauma.fi ></a>
+                    </div>
+                </a>
+            </div>   
+                <a href="{% url 'lordsteel' %}">
+                    <div class="company">
+                        <div class="company-logo">
+                            <h1>LORD STEEL INTERNATIONAL Co.Ltd.</h1>
+                            <img src="{% static 'app/LOGOs_200px_LORDSTEEL.jpg' %}" alt="">
+                        </div>
+                        <p>Líder Asiático no fornecimento de tubos industriais e canos que dependem de tecnologia avançada para produtos de alta qualidade. Somos 
+                            especializados na produção de aço inoxidável sem costura e soldado/liga de níquel/cobre, tubos e canos de liga leve, bem como toda uma linha de 
+                            acessórios para cada tubo, que disponibilizamos para todos os nossos clientes em todo o mundo. A LSI fornece os produtos para mais de 50 países, 
+                            até hoje, devido à excelente reputação e garantia de qualidade dos nossos produtos.                        
+                        </p>
+                        <a href="http://www.lordsteel.com" target="_blank" class="company-p-link">lordsteel.com ></a>
+                    </div>
+                </a>
+                <a href="{% url 'maronsteel' %}">
+                    <div class="company">
+                        <div class="company-logo">
+                            <h1>MARON STEEL</h1>
+                            <img src="{% static 'app/LOGOs_200px_MARONSTEEL.jpg' %}" alt="">
+                        </div>
+                        <p>Seu fornecedor completo de tubos, conexões, flanges, barras e placas de válvulas de fabricantes e armazenistas de primeira classe localizados na 
+                            Europa, EUA, Coréia do Sul e China.
+                        </p>
+                        <a href="http://www.maronsteel.com" target="_blank" class="company-p-link">maronsteel.com ></a>
+                    </div>
+                </a>
+                <a href="{% url 'raumasteroy' %}">
+                    <div class="company">
+                        <div class="company-logo">
+                            <h1>RAUMASTER OY</h1>
+                            <img src="{% static 'app/LOGOs_200px_RaumasterOy.jpg' %}" alt="">
+                        </div>
+                        <p>A engenharia finlandesa nas indústrias de processamento de madeira e energia é de qualidade de classe mundial. A Raumaster Oy, fundada em 1984, 
+                            é um fornecedor renomado de sistemas e equipamentos avançados de manuseio de materiais. Hoje nossa empresa é considerada líder global em seu 
+                            ramo de negócios. A Raumaster se esforça continuamente para garantir a máxima confiabilidade e qualidade de nossos produtos e serviços pós-venda.
+                            Empregamos mais de 300 profissionais para garantir que os mais altos padrões sejam mantidos. O nosso volume de negócios é de aproximadamente 155 
+                            MEUR. O sucesso da Raumaster decorre da sua capacidade de fornecer entregas completas. Fornecemos sistemas de manuseio de materiais para a 
+                            indústria de processamento de madeira e para usinas de energia. Nosso principal objetivo é a satisfação do cliente e a manutenção eficaz de 
+                            relacionamentos duradouros com os clientes.                        
+                        </p>
+                        <a href="https://www.raumaster.fi/" target="_blank" class="company-p-link">raumaster.fi ></a>
+                    </div>
+                </a>
+                <a href="{% url 'raumasterpaper' %}">
+                    <div class="company">
+                        <div class="company-logo">
+                            <h1>RAUMASTER PAPER</h1>
+                            <img src="{% static 'app/LOGOs_200px_RaumasterPpr.jpg' %}" alt="">
+                        </div>
+                        <p>A Raumaster Paper foi fundada em 2003 como parte do Grupo Raumaster para aprimorar a especialização na indústria de acabamento de papel. Os 
+                            sistemas totalmente automatizados da Raumaster Paper lidam com fardos de celulose e rolos de papel/cartão desde o enrolamento até o carregamento.
+                                Aumentaremos a sua produtividade fornecendo soluções de acabamento económicas e fáceis de utilizar. Nossa visão é ser o fornecedor preferencial 
+                                de acabamento de papel do setor.                        
+                        </p>
+                        <a href="https://www.raumasterpaper.fi/" target="_blank" class="company-p-link">raumasterpaper.fi ></a>
+                    </div>
+                </a>
+                <a href="{% url 'rkind' %}">
+                    <div class="company">
+                        <div class="company-logo">
+                            <h1>R.KIND</h1>
+                            <img src="{% static 'app/LOGOs_200px_RKIND.jpg' %}" alt="">
+                        </div>
+                        <p>Fundada em 1969, a Rolf Kind GmbH é especializada na produção de peças forjadas em aços inoxidáveis de alta liga e materiais resistentes à corrosão, bem como ligas à base de níquel e titânio. Adaptamos os processos de conformação e rotas de produção necessários com precisão às respectivas necessidades do cliente. Seja forjamento, laminação contínua ou aquecimento e recalque indutivo – encontramos o processo individualmente ideal para cada peça de trabalho. Como somos responsáveis ​​por toda a cadeia produtiva, somos capazes de implementar até os formatos de produtos mais exigentes: eixos, anéis, buchas, corpos ocos, peças redondas e quadradas, bem como quaisquer formatos especiais de acordo com a necessidade do cliente.                      
+                        </p>
+                        <a href="https://www.r-kind.de/de/" target="_blank" class="company-p-link">r-kind.de ></a>
+                    </div>
+                </a>
+                <a href="{% url 'schlick' %}">
+                    <div class="company">
+                        <div class="company-logo">
+                            <h1>SCHLICK</h1>
+                            <img src="{% static 'app/LOGOs_200px_SCHLICK.jpg' %}" alt="">
+                        </div>
+                        <p>Nossos bicos e sistemas de bicos são usados ​​em uma enorme variedade de aplicações em todo o mundo e em quase todos os setores. Em particular, 
+                            temos uma vasta experiência nos setores industrial, farmacêutico e de tecnologia alimentar. Em linha com o lema da nossa empresa, 
+                            “Viver para soluções”, pretendemos encontrar a melhor solução para cada aplicação.                        
+                        </p>
+                        <a href="https://www.myschlick.com/en/" target="_blank" class="company-p-link">myschlick.com ></a>
+                    </div>
+                </a>
+                <a href="{% url 'schmidtclemens' %}">
+                    <div class="company">
+                        <div class="company-logo">
+                            <h1>SCHMIDT + CLEMENS</h1>
+                            <img src="{% static 'app/LOGOs_200px_SCHMIDTCLEMENS.jpg' %}" alt="">
+                        </div>
+                        <p>Desde 1879, o nome Schmidt + Clemens é sinônimo da mais alta qualidade em aço inoxidável.
+                            A partir de então, o selo “Made by S+C” tem sido uma garantia de componentes e soluções excepcionais em aços e ligas de alta qualidade. A área 
+                            de negócio de “Produtos Especiais” da S+C abrange desde tubos fundidos centrifugamente até produtos semiacabados e abrange até mesmo componentes 
+                            prontos para instalação. Seja resistente à corrosão, ao calor ou ao desgaste, os especialistas da S+C sempre encontram a solução certa para 
+                            garantir que seus produtos tenham o desempenho máximo desejado. O processo de fabricação da S+C começa com fundição centrífuga sobre areia e 
+                            microfusão e cobre até mesmo forjamento. Todos os nossos produtos são feitos exclusivamente de aços inoxidáveis e ligas de alta qualidade. 
+                            Construções soldadas, se necessário montadas a partir de componentes de diferentes processos de fabricação, também são uma especialidade da S+C. 
+                            Essa versatilidade é única na indústria do aço inoxidável e oferece aos nossos clientes as soluções necessárias em um único fornecedor.                        
+                        </p>
+                        <a href="https://www.schmidt-clemens.com/" target="_blank" class="company-p-link">schmidt-clemens.com ></a>
+                    </div>
+                </a>
+                <a href="{% url 'siepmannwerke' %}">
+                    <div class="company">
+                        <div class="company-logo">
+                            <h1>SIEPMANN WERKE</h1>
+                            <img src="{% static 'app/LOGOs_200px_SIEPMANN.jpg' %}" alt="">
+                        </div>
+                        <p>Desenvolvemos, produzimos e comercializamos soluções de produtos feitos de aço, sofisticados e específicos para cada cliente. 125 anos de 
+                            experiência que foram continuamente construídos e transmitidos até a quarta geração da família fundadora, nos tornam verdadeiros especialistas 
+                            quando se trata de processos de forjamento, tratamento térmico, metalurgia, usinagem, montagem de unidades e soldadura. Com um volume de 
+                            negócios anual de cerca de 85 milhões de euros, cerca de 450 funcionários e parceiros de vendas em todo o mundo, somos um dos líderes do mercado 
+                            europeu.                        
+                        </p>
+                        <a href="https://www.siepmann.de/?lang=en" target="_blank" class="company-p-link">siepmann.de ></a>
+                    </div>
+                </a>
+                <a href="{% url 'termomeccanica' %}">
+                    <div class="company">
+                        <div class="company-logo">
+                            <h1>TERMOMECCÂNICA</h1>
+                            <img src="{% static 'app/LOGOs_200px_TME.jpg' %}" alt="">
+                        </div>
+                        <p>Empresa italiana especializada na concepção, construção de obras de engenharia ambiental e industrial (Recuperação de solventes puros de ar 
+                            poluído com solventes ou vapores líquidos, Oxidação térmica de gases como TO e RTO, Tratamento de gases de combustão como DeNOx ou DeSOx, 
+                            Instalações de incineração de resíduos líquidos perigosos).                        
+                        </p>
+                        <a href="https://www.tme.termomeccanica.com/" target="_blank" class="company-p-link">termomeccanica.com ></a>
+                    </div>
+                </a>
+                <a href="{% url 'ureaknowhow' %}">
+                    <div class="company">
+                        <div class="company-logo">
+                            <h1>UREAKNOWHOW</h1>
+                            <img src="{% static 'app/LOGOs_200px_UREA.jpg' %}" alt="">
+                        </div>
+                        <p>UreaKnowHow.com é um Knowledge Center e Network Platform em constante expansão para a Indústria de Fertilizantes de Nitrogênio . A missão do grupo é melhorar a Segurança e o Desempenho de Todas as plantas de Fertilizantes de Nitrogênio no mundo todo .
+
+                            É um  grupo independente de especialistas em fertilizantes nitrogenados com um número impressionante de anos de experiência em projeto, manutenção e operação de plantas de fertilizantes nitrogenados.
+                            
+                            Esta iniciativa foi possível e conta com o apoio dos Provedores de Soluções , um grupo de empresas conceituadas que oferecem Soluções para melhorar a Segurança e o Desempenho das plantas de Fertilizantes Nitrogenados.
+                            
+                            As informações trocadas são de natureza não confidencial e abrangem questões operacionais e de manutenção, riscos e perigos de segurança, incidentes e casos de solução de problemas, tecnologias de renovação e inovações.
+                            
+                            A rede consiste em mais de  14.000 gerentes e engenheiros  representando todos os complexos de fertilizantes de nitrogênio em todo o mundo.                       
+                        </p>
+                        <a href="https://ureaknowhow.com/" target="_blank" class="company-p-link">ureaknowhow.com ></a>
+                    </div>
+                </a>
+                <a href="{% url 'vana' %}">
+                    <div class="company">
+                        <div class="company-logo">
+                            <h1>VANA</h1>
+                            <img src="{% static 'app/LOGOs_200px_VANASONNEck.jpg' %}" alt="">
+                        </div>
+                        <p>Sonnek é fabricante de equipamentos de usados em produtos alimentares e bebidas, tais como bombas, filtros e dosadoras. Dentro do grupo Sonnek, a 
+                            empresa VANA tem como foco principal os equipamentos para a indústria alimentícia. A VANA fornece sistemas de liquefação industriais em grande 
+                            escala e sob medida com aplicações por exemplo na produção de manteiga, margarina e cacau, através de soluções completas em uma única fonte:
+                            → Planejamento e design;
+                            → Tanques e agitadores;
+                            → Construção de dutos;
+                            → Sistemas de aquecimento;
+                            → Conhecimento em aquecimento/controle de temperatura de camisas de água;
+                            → Instalação e comissionamento.                        
+                        </p>
+                        <a href="https:///sonnek.com" target="_blank" class="company-p-link">sonnek.com ></a>
+                    </div>
+                </a>
+ 
+        </div>
+    </section>
+
+{% endblock %}
